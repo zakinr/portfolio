@@ -155,7 +155,11 @@ export default function Portfolio() {
           >
             <div className="w-32 h-32 mx-auto mb-6 rounded-full bg-gradient-to-br from-purple-400 to-blue-500 p-1">
               <div className="w-full h-full rounded-full bg-slate-900 flex items-center justify-center">
-                <span className="text-4xl font-bold text-white">MZ</span>
+                <img
+                  src="/Profile linkedin.png"
+                  alt="Muhammad Zaki Nur Rahman"
+                  className="w-full h-full rounded-full object-cover"
+                />
               </div>
             </div>
           </motion.div>
@@ -238,7 +242,7 @@ export default function Portfolio() {
                 <CardContent className="p-8">
                   <div className="w-48 h-48 mx-auto mb-6 rounded-full bg-gradient-to-br from-purple-400 to-blue-500 p-1">
                     <img
-                      src="/placeholder.svg?height=200&width=200"
+                      src="/Profile linkedin.png"
                       alt="Muhammad Zaki Nur Rahman"
                       className="w-full h-full rounded-full object-cover"
                     />
